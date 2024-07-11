@@ -7,10 +7,10 @@
             InitializeComponent();
 
             //shell
-            MainPage = new AppShell();
+            // MainPage = new AppShell();
             
             //no shell
-            //MainPage = new NavigationPage(new MainPage());
+            MainPage = new NavigationPage(new MainPage());
         }
     }
 }
